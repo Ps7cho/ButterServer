@@ -1,0 +1,2 @@
+/// @description 
+buildingType = 0;
