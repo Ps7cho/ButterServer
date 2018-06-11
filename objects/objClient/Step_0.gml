@@ -43,7 +43,5 @@ if moving  {
 		buffer_write(objServer.bufferSend, buffer_bool, stunned);
 		
 		with objClient{
-			if self.client_id != other.client_id{
-				network_send_packet(self.socket_id, objServer.bufferSend, buffer_tell(objServer.bufferSend));
-			}
+			network_send_packet(self.socket_id, objServer.bufferSend, buffer_tell(objServer.bufferSend));
 		}

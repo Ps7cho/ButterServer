@@ -1,4 +1,4 @@
-/// @description Rubberband check
+/// @description update self
 
 		buffer_seek(objServer.bufferSend, buffer_seek_start, 0);
 		buffer_write(objServer.bufferSend, buffer_u8, networkEvents.rubberband);
@@ -11,6 +11,6 @@
 		
 		
 		
-	alarm[0] = 60;
+//	alarm[0] = 60;
 	
 
